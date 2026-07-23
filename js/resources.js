@@ -8,6 +8,7 @@
 // ===================================================================
 
 const RECURSOS = [
+  { titulo: 'Clase 2 — Sitio web estático en AWS S3', descripcion: 'Archivos de ejemplo (index.html, error.html) y la política de bucket para publicar un sitio estático en S3, con instrucciones paso a paso.', archivo: 'archivos/clase2-sitio-web-estatico-s3.zip', categoria: 'AWS', tipo: 'ZIP' },
   // Ejemplo (borra el // para activarlo una vez subas el archivo real):
   // { titulo: 'Guía rápida de AWS', descripcion: 'Resumen de los servicios más usados en el examen Cloud Practitioner.', archivo: 'archivos/guia-aws.pdf', categoria: 'AWS', tipo: 'PDF' },
 ];

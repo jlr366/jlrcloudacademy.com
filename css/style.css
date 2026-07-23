@@ -21,6 +21,7 @@
 .theme-juegos{ --accent: #10b981; --accent-2: #6c5ce7; }
 .theme-perfil{ --accent: #6c5ce7; --accent-2: #00bcf2; }
 .theme-cursos{ --accent: #f59e0b; --accent-2: #10b981; }
+.theme-recursos{ --accent: #14b8a6; --accent-2: #0ea5e9; }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -350,6 +351,20 @@ img { max-width: 100%; display: block; }
 }
 .exam-card h3 { margin: 0; font-size: 1rem; }
 .exam-card p { color: var(--text-muted); font-size: 0.86rem; margin: 0; flex: 1; }
+
+/* Recursos descargables */
+.resource-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.resource-body h3 { margin: 8px 0 6px; font-size: 1.02rem; }
+.resource-body p { color: var(--text-muted); font-size: 0.86rem; margin: 0; }
 
 .empty-state {
   text-align: center;

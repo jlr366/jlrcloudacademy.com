@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ── Animacion de aparicion al hacer scroll ──
-  const revealEls = document.querySelectorAll('.card, .provider-card, .cta-banner, .highlight, .exam-card');
+  const revealEls = document.querySelectorAll('.card, .provider-card, .cta-banner, .highlight, .exam-card, .resource-card');
   if ('IntersectionObserver' in window && revealEls.length) {
     revealEls.forEach(el => el.classList.add('reveal'));
     const io = new IntersectionObserver((entries) => {

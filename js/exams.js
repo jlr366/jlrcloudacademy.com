@@ -5,9 +5,12 @@
 // Para Azure/GCP el "url" queda vacio hasta activarlos igual.
 // ===================================================================
 
+// Solo se listan aqui los examenes cortos de practica libre (pocas
+// preguntas). El examen completo tipo certificacion (65 preguntas,
+// "Cloud Practitioner I") no se ofrece en acceso publico gratuito —
+// queda reservado para los cursos para empresas (ver cursos.html).
 const EXAMENES_AWS = [
   { titulo: 'Conceptos Cloud Básicos', descripcion: 'Fundamentos de computación en la nube aplicados a AWS (S3, EC2 y más).', url: 'https://evaluacion-digital.com/examen.html?id=1AtR6t86o7ZvtSQ7aoNI' },
-  { titulo: 'AWS Cloud Practitioner', descripcion: 'Certificación — repaso completo de nivel fundamentos.', url: 'https://evaluacion-digital.com/examen.html?id=IuuuCrxIwgsPOnnVf6Bq' },
   { titulo: 'Seguridad en la Nube', descripcion: 'Buenas prácticas de seguridad y responsabilidad compartida en AWS.', url: 'https://evaluacion-digital.com/examen.html?id=NbM5OdFubrdgQFoikqnN' },
   { titulo: 'Facturación, Precio y Soporte', descripcion: 'Modelos de costos, facturación y planes de soporte en AWS.', url: 'https://evaluacion-digital.com/examen.html?id=pOP0qV8zExl2nA3o33Ol' }
 ];
